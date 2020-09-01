@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\bin\Debug\netcoreapp3.1\p06PIZZA.exe
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\bin\Debug\netcoreapp3.1\p06PIZZA.deps.json
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\bin\Debug\netcoreapp3.1\p06PIZZA.runtimeconfig.json
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\bin\Debug\netcoreapp3.1\p06PIZZA.runtimeconfig.dev.json
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\bin\Debug\netcoreapp3.1\p06PIZZA.dll
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\bin\Debug\netcoreapp3.1\p06PIZZA.pdb
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\obj\Debug\netcoreapp3.1\p06PIZZA.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\obj\Debug\netcoreapp3.1\p06PIZZA.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\obj\Debug\netcoreapp3.1\p06PIZZA.AssemblyInfo.cs
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\obj\Debug\netcoreapp3.1\p06PIZZA.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\obj\Debug\netcoreapp3.1\p06PIZZA.dll
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\obj\Debug\netcoreapp3.1\p06PIZZA.pdb
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p06PIZZA\obj\Debug\netcoreapp3.1\p06PIZZA.genruntimeconfig.cache

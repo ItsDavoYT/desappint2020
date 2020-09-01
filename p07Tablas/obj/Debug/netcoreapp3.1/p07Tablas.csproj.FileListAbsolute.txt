@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\bin\Debug\netcoreapp3.1\p07Tablas.exe
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\bin\Debug\netcoreapp3.1\p07Tablas.deps.json
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\bin\Debug\netcoreapp3.1\p07Tablas.runtimeconfig.json
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\bin\Debug\netcoreapp3.1\p07Tablas.runtimeconfig.dev.json
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\bin\Debug\netcoreapp3.1\p07Tablas.dll
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\bin\Debug\netcoreapp3.1\p07Tablas.pdb
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\obj\Debug\netcoreapp3.1\p07Tablas.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\obj\Debug\netcoreapp3.1\p07Tablas.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\obj\Debug\netcoreapp3.1\p07Tablas.AssemblyInfo.cs
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\obj\Debug\netcoreapp3.1\p07Tablas.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\obj\Debug\netcoreapp3.1\p07Tablas.dll
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\obj\Debug\netcoreapp3.1\p07Tablas.pdb
+C:\Users\hp\Desktop\cursos\DevApps\Proyectos\p07Tablas\obj\Debug\netcoreapp3.1\p07Tablas.genruntimeconfig.cache
