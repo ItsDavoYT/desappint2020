@@ -1,0 +1,13 @@
+H:\Escuela\Cursos\Dev Apps\p22Linq3\bin\Debug\netcoreapp3.1\p22Linq3.exe
+H:\Escuela\Cursos\Dev Apps\p22Linq3\bin\Debug\netcoreapp3.1\p22Linq3.deps.json
+H:\Escuela\Cursos\Dev Apps\p22Linq3\bin\Debug\netcoreapp3.1\p22Linq3.runtimeconfig.json
+H:\Escuela\Cursos\Dev Apps\p22Linq3\bin\Debug\netcoreapp3.1\p22Linq3.runtimeconfig.dev.json
+H:\Escuela\Cursos\Dev Apps\p22Linq3\bin\Debug\netcoreapp3.1\p22Linq3.dll
+H:\Escuela\Cursos\Dev Apps\p22Linq3\bin\Debug\netcoreapp3.1\p22Linq3.pdb
+H:\Escuela\Cursos\Dev Apps\p22Linq3\obj\Debug\netcoreapp3.1\p22Linq3.csprojAssemblyReference.cache
+H:\Escuela\Cursos\Dev Apps\p22Linq3\obj\Debug\netcoreapp3.1\p22Linq3.AssemblyInfoInputs.cache
+H:\Escuela\Cursos\Dev Apps\p22Linq3\obj\Debug\netcoreapp3.1\p22Linq3.AssemblyInfo.cs
+H:\Escuela\Cursos\Dev Apps\p22Linq3\obj\Debug\netcoreapp3.1\p22Linq3.csproj.CoreCompileInputs.cache
+H:\Escuela\Cursos\Dev Apps\p22Linq3\obj\Debug\netcoreapp3.1\p22Linq3.dll
+H:\Escuela\Cursos\Dev Apps\p22Linq3\obj\Debug\netcoreapp3.1\p22Linq3.pdb
+H:\Escuela\Cursos\Dev Apps\p22Linq3\obj\Debug\netcoreapp3.1\p22Linq3.genruntimeconfig.cache

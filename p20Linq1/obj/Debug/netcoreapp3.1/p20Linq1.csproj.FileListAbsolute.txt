@@ -1,0 +1,13 @@
+H:\Escuela\Cursos\Dev Apps\p20Linq1\bin\Debug\netcoreapp3.1\p20Linq1.exe
+H:\Escuela\Cursos\Dev Apps\p20Linq1\bin\Debug\netcoreapp3.1\p20Linq1.deps.json
+H:\Escuela\Cursos\Dev Apps\p20Linq1\bin\Debug\netcoreapp3.1\p20Linq1.runtimeconfig.json
+H:\Escuela\Cursos\Dev Apps\p20Linq1\bin\Debug\netcoreapp3.1\p20Linq1.runtimeconfig.dev.json
+H:\Escuela\Cursos\Dev Apps\p20Linq1\bin\Debug\netcoreapp3.1\p20Linq1.dll
+H:\Escuela\Cursos\Dev Apps\p20Linq1\bin\Debug\netcoreapp3.1\p20Linq1.pdb
+H:\Escuela\Cursos\Dev Apps\p20Linq1\obj\Debug\netcoreapp3.1\p20Linq1.csprojAssemblyReference.cache
+H:\Escuela\Cursos\Dev Apps\p20Linq1\obj\Debug\netcoreapp3.1\p20Linq1.AssemblyInfoInputs.cache
+H:\Escuela\Cursos\Dev Apps\p20Linq1\obj\Debug\netcoreapp3.1\p20Linq1.AssemblyInfo.cs
+H:\Escuela\Cursos\Dev Apps\p20Linq1\obj\Debug\netcoreapp3.1\p20Linq1.csproj.CoreCompileInputs.cache
+H:\Escuela\Cursos\Dev Apps\p20Linq1\obj\Debug\netcoreapp3.1\p20Linq1.dll
+H:\Escuela\Cursos\Dev Apps\p20Linq1\obj\Debug\netcoreapp3.1\p20Linq1.pdb
+H:\Escuela\Cursos\Dev Apps\p20Linq1\obj\Debug\netcoreapp3.1\p20Linq1.genruntimeconfig.cache
