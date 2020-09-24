@@ -8,7 +8,7 @@ namespace p22Linq3{
         public string Nombre{get;set;}
         public string Domicilio{get;set;}
         public List<float> Califs;
-        public override string ToString() =>$"Matricula: {Matricula}, Nombre: {Nombre}, Domicilio: {Domicilio}, Califs: {String.Join(",",Califs)}";
+        public override string ToString() => $"Matricula: {Matricula}, Nombre: {Nombre}, Domicilio: {Domicilio}, Califs: {String.Join(",",Califs)}";
 
     }
 

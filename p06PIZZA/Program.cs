@@ -10,7 +10,6 @@ namespace p06pizza
     {
         static int Main(string[] args)
         {
-            int op;
             char tam, cub, don;
             string[] ings;
             string tamaño, ingredientes="", cubierta, donde;
