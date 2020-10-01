@@ -1,0 +1,13 @@
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\bin\Debug\netcoreapp3.1\p28Delegados4.exe
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\bin\Debug\netcoreapp3.1\p28Delegados4.deps.json
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\bin\Debug\netcoreapp3.1\p28Delegados4.runtimeconfig.json
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\bin\Debug\netcoreapp3.1\p28Delegados4.runtimeconfig.dev.json
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\bin\Debug\netcoreapp3.1\p28Delegados4.dll
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\bin\Debug\netcoreapp3.1\p28Delegados4.pdb
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\obj\Debug\netcoreapp3.1\p28Delegados4.csprojAssemblyReference.cache
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\obj\Debug\netcoreapp3.1\p28Delegados4.AssemblyInfoInputs.cache
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\obj\Debug\netcoreapp3.1\p28Delegados4.AssemblyInfo.cs
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\obj\Debug\netcoreapp3.1\p28Delegados4.csproj.CoreCompileInputs.cache
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\obj\Debug\netcoreapp3.1\p28Delegados4.dll
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\obj\Debug\netcoreapp3.1\p28Delegados4.pdb
+H:\Escuela\Cursos\Dev Apps\p28Delegados4\obj\Debug\netcoreapp3.1\p28Delegados4.genruntimeconfig.cache

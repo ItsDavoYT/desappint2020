@@ -1,0 +1,13 @@
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\bin\Debug\netcoreapp3.1\p23Interfaz1.exe
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\bin\Debug\netcoreapp3.1\p23Interfaz1.deps.json
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\bin\Debug\netcoreapp3.1\p23Interfaz1.runtimeconfig.json
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\bin\Debug\netcoreapp3.1\p23Interfaz1.runtimeconfig.dev.json
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\bin\Debug\netcoreapp3.1\p23Interfaz1.dll
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\bin\Debug\netcoreapp3.1\p23Interfaz1.pdb
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\obj\Debug\netcoreapp3.1\p23Interfaz1.csprojAssemblyReference.cache
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\obj\Debug\netcoreapp3.1\p23Interfaz1.AssemblyInfoInputs.cache
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\obj\Debug\netcoreapp3.1\p23Interfaz1.AssemblyInfo.cs
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\obj\Debug\netcoreapp3.1\p23Interfaz1.csproj.CoreCompileInputs.cache
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\obj\Debug\netcoreapp3.1\p23Interfaz1.dll
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\obj\Debug\netcoreapp3.1\p23Interfaz1.pdb
+H:\Escuela\Cursos\Dev Apps\p23Interfaz1\obj\Debug\netcoreapp3.1\p23Interfaz1.genruntimeconfig.cache
