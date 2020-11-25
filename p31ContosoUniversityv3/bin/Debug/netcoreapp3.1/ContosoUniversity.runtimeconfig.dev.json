@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/castr/.dotnet/store/|arch|/|tfm|",
-      "/Users/castr/.nuget/packages"
+      "C:\\Users\\drc41\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\drc41\\.nuget\\packages"
     ]
   }
 }

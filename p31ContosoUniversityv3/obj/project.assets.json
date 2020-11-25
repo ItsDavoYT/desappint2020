@@ -8785,19 +8785,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/castr/.nuget/packages/": {}
+    "C:\\Users\\drc41\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/castr/Google Drive/UAZ2020/ClasesAD2020/05.desappic/proyectos/p31ContosoUniversityv3/ContosoUniversity.csproj",
+      "projectUniqueName": "H:\\Escuela\\Cursos\\Dev Apps\\p31ContosoUniversityv3\\ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "/Users/castr/Google Drive/UAZ2020/ClasesAD2020/05.desappic/proyectos/p31ContosoUniversityv3/ContosoUniversity.csproj",
-      "packagesPath": "/Users/castr/.nuget/packages/",
-      "outputPath": "/Users/castr/Google Drive/UAZ2020/ClasesAD2020/05.desappic/proyectos/p31ContosoUniversityv3/obj/",
+      "projectPath": "H:\\Escuela\\Cursos\\Dev Apps\\p31ContosoUniversityv3\\ContosoUniversity.csproj",
+      "packagesPath": "C:\\Users\\drc41\\.nuget\\packages\\",
+      "outputPath": "H:\\Escuela\\Cursos\\Dev Apps\\p31ContosoUniversityv3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/castr/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\drc41\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8860,7 +8860,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

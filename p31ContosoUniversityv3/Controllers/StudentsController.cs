@@ -22,7 +22,11 @@ namespace ContosoUniversity.Controllers
         // GET: Students
         public async Task<IActionResult> Index(string searchString)
         {
-            var students = from s in _context.Students select s;
+
+            var _students = _context.Students.Include(i=>i.Enrollments).ThenInclude(i=>i.Course).AsNoTracking();
+
+
+            var students = from s in _students select s;
             
             if(!string.IsNullOrEmpty(searchString)) {
                 students = students.Where(s=> s.LastName.Contains(searchString) 
