@@ -1,0 +1,116 @@
+@model IEnumerable<MotorPolicy.Models.tblDrivers>
+
+@{
+    ViewData["Title"] = "Drivers";
+}
+
+<h1>Drivers</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by Title: 
+            <input type="text" name="SearchString" />
+            <input type="submit" value="Search"/>
+            <a asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+
+</form>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.strTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strFirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strLastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dteDOB)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dteDateLicensed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strLicenseReference)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strAddress_Street)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strAddress_TownVillage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strAddress_Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strAddress_PostCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strContactDayPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strContactNightPhone)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.strTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strFirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strLastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dteDOB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dteDateLicensed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strLicenseReference)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strAddress_Street)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strAddress_TownVillage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strAddress_Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strAddress_PostCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strContactDayPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strContactNightPhone)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.lngDriveID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.lngDriveID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.lngDriveID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,59 @@
+@model MotorPolicy.Models.tblPolicies
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>tblPolicies</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="strPolicyReferenceNo" />
+            <div class="form-group">
+                <label asp-for="dtePolicyEffectiveDate" class="control-label"></label>
+                <input asp-for="dtePolicyEffectiveDate" class="form-control" />
+                <span asp-validation-for="dtePolicyEffectiveDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dtePolicyExpirationDate" class="control-label"></label>
+                <input asp-for="dtePolicyExpirationDate" class="form-control" />
+                <span asp-validation-for="dtePolicyExpirationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="curTotalPolicyCost" class="control-label"></label>
+                <input asp-for="curTotalPolicyCost" class="form-control" />
+                <span asp-validation-for="curTotalPolicyCost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lngPayerId" class="control-label"></label>
+                <input asp-for="lngPayerId" class="form-control" />
+                <span asp-validation-for="lngPayerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dteLastUpdate" class="control-label"></label>
+                <input asp-for="dteLastUpdate" class="form-control" />
+                <span asp-validation-for="dteLastUpdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="memAdditionalInfo" class="control-label"></label>
+                <input asp-for="memAdditionalInfo" class="form-control" />
+                <span asp-validation-for="memAdditionalInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,55 @@
+@model IEnumerable<MotorPolicy.Models.tblViolationCodes>
+
+@{
+    ViewData["Title"] = "Violation Codes";
+}
+
+<h1>Violation Codes</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by Code: 
+            <input type="text" name="SearchString" />
+            <input type="submit" value="Search"/>
+            <a asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.strViolationDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strAdditionalInfo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.strViolationDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strAdditionalInfo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.strViolationCode">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.strViolationCode">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.strViolationCode">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

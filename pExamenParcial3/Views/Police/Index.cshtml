@@ -1,0 +1,79 @@
+@model IEnumerable<MotorPolicy.Models.tblPolicies>
+
+@{
+    ViewData["Title"] = "Police";
+}
+
+<h1>Police</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by ReferenceNO: 
+            <input type="text" name="SearchString" />
+            <input type="submit" value="Search"/>
+            <a asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.dtePolicyEffectiveDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dtePolicyExpirationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.curTotalPolicyCost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lngPayerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dteLastUpdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.memAdditionalInfo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.dtePolicyEffectiveDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dtePolicyExpirationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.curTotalPolicyCost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lngPayerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dteLastUpdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.memAdditionalInfo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.strPolicyReferenceNo">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.strPolicyReferenceNo">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.strPolicyReferenceNo">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

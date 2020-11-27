@@ -1,0 +1,103 @@
+@model IEnumerable<MotorPolicy.Models.tblVehicles>
+
+@{
+    ViewData["Title"] = "Vehicle";
+}
+
+<h1>Vehicles</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by Model: 
+            <input type="text" name="SearchString" />
+            <input type="submit" value="Search"/>
+            <a asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.strVehicleChassisNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strVehicleEngineNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strVehicleEngineSize)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strVehicleMake)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strVehicleModel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lngRegistrationYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strVehicleRegistrationNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.curVehicleValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lngInsuranceGroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strPolicyReferenceNo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.strVehicleChassisNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strVehicleEngineNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strVehicleEngineSize)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strVehicleMake)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strVehicleModel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lngRegistrationYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strVehicleRegistrationNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.curVehicleValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lngInsuranceGroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strPolicyReferenceNo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.lngVehicleID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.lngVehicleID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.lngVehicleID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

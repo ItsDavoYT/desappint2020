@@ -1,0 +1,89 @@
+@model MotorPolicy.Models.tblDrivers
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>tblDrivers</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="lngDriveID" />
+            <div class="form-group">
+                <label asp-for="strTitle" class="control-label"></label>
+                <input asp-for="strTitle" class="form-control" />
+                <span asp-validation-for="strTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strFirstName" class="control-label"></label>
+                <input asp-for="strFirstName" class="form-control" />
+                <span asp-validation-for="strFirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strLastName" class="control-label"></label>
+                <input asp-for="strLastName" class="form-control" />
+                <span asp-validation-for="strLastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dteDOB" class="control-label"></label>
+                <input asp-for="dteDOB" class="form-control" />
+                <span asp-validation-for="dteDOB" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dteDateLicensed" class="control-label"></label>
+                <input asp-for="dteDateLicensed" class="form-control" />
+                <span asp-validation-for="dteDateLicensed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strLicenseReference" class="control-label"></label>
+                <input asp-for="strLicenseReference" class="form-control" />
+                <span asp-validation-for="strLicenseReference" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strAddress_Street" class="control-label"></label>
+                <input asp-for="strAddress_Street" class="form-control" />
+                <span asp-validation-for="strAddress_Street" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strAddress_TownVillage" class="control-label"></label>
+                <input asp-for="strAddress_TownVillage" class="form-control" />
+                <span asp-validation-for="strAddress_TownVillage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strAddress_Country" class="control-label"></label>
+                <input asp-for="strAddress_Country" class="form-control" />
+                <span asp-validation-for="strAddress_Country" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strAddress_PostCode" class="control-label"></label>
+                <input asp-for="strAddress_PostCode" class="form-control" />
+                <span asp-validation-for="strAddress_PostCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strContactDayPhone" class="control-label"></label>
+                <input asp-for="strContactDayPhone" class="form-control" />
+                <span asp-validation-for="strContactDayPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strContactNightPhone" class="control-label"></label>
+                <input asp-for="strContactNightPhone" class="form-control" />
+                <span asp-validation-for="strContactNightPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
